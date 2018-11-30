@@ -2,7 +2,13 @@
 
 ## Introduction ##
 
-This is a simple device designed to be a shortcut for common action when using Cubase. 
+This is a simple device designed to be a shortcut for common action in Cubase. It can:
+- control the system volume
+- mute/unmute the sound
+- play/stop
+- start recording
+- toggle transport cycle
+- mark the current selected track as solo
 
 ## How it works ##
 
