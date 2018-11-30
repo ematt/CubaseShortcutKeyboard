@@ -10,6 +10,8 @@ This is a simple device designed to be a shortcut for common action in Cubase. I
 - toggle transport cycle
 - mark the current selected track as solo
 
+![picture of the device](https://raw.githubusercontent.com/ematt/CubaseShortcutKeyboard/master/pictures/IMG_20181126_214617348.jpg)
+
 ## How it works ##
 
 Using the v-usb library, it emulates a keyboard and a multimedia device.
