@@ -10,7 +10,7 @@
 #define BUTTON_MAP_H_
 
 #include "Button_debounce.h"
-#include "encoder.h"
+#include "rotaryEncoder.h"
 
 void keyboard_init(void);
 

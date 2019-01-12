@@ -38,7 +38,8 @@ static struct KEYBOARD_KEY keyboardMap[] =
 void keyboard_init(void)
 {
 	button_init();
-	encoder_init();
+	//encoder_init();
+	rotaryEncoder_init();
 }
 
 static void keyboard_process_buttons(void)
@@ -62,7 +63,8 @@ static void keyboard_process_buttons(void)
 void keyboard_routine(void)
 {
 	button_routine();
-	encoder_routine();
+	//encoder_routine();
+	rotaryEncoder_process();
 	keyboard_process_buttons();
 }
 

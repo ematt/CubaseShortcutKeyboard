@@ -15,7 +15,7 @@
 #include "oddebug.h"
 
 #include "timer2.h"
-#include "encoder.h"
+#include "rotaryEncoder.h"
 
 #include "keyboard.h"
 
@@ -186,7 +186,7 @@ int main(void)
 		keyboard_routine();
 		
 		if( usbInterruptIsReady()){
-			ENCODER_SPIN_DIRECTION encoderDirection = encoder_get_direction();
+			ENCODER_SPIN_DIRECTION encoderDirection = rotaryEncoder_get_direction();
 			
 			switch(encoderDirection)
 			{
